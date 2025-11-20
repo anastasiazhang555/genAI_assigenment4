@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights
+*.pth
+
+# Generated images
+*_generated.png
+
+# Data folders
+data/
+*.tar.gz
+*.pth
