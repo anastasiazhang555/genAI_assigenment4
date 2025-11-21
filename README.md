@@ -37,13 +37,13 @@ The code is fully modularized under the `helper_lib/` package and supports both 
 
 ```bash
 pip install -r requirements.txt
-、、、
 
-2. Start FastAPI Server
+### 2. Start FastAPI Server
+```bash
 uvicorn main:app --reload
 
-3. Open API Documentation (Swagger UI)
-
+### 3. Open API Documentation (Swagger UI)
+```bash
 Once the server starts, open:
 
 👉 http://127.0.0.1:8000/docs
